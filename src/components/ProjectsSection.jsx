@@ -12,23 +12,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "Beautiful Portfolio",
+    description: "A portfolio website built with React and TailwindCSS.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "https://beautiful-portfolio-eta.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/beautiful-portfolio",
   },
 ];
 
@@ -46,7 +35,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="container flex gap-8 max-sm:grid">
           {projects.map((project, key) => (
             <div
               key={key}

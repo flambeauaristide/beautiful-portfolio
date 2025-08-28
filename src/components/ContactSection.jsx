@@ -1,4 +1,5 @@
 import {
+  Facebook,
   Instagram,
   Linkedin,
   Mail,
@@ -6,7 +7,6 @@ import {
   Phone,
   Send,
   Twitch,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -43,10 +43,10 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+        <div className="gap-12">
+          <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
+          <div className="container flex justify-between max-sm:grid">
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -92,7 +92,7 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="pt-8">
+              <div className="pt-8 max-sm:mb-10">
                 <h4 className="font-medium mb-4">Connect With Me</h4>
                 <div className="flex space-x-4 justify-center">
                   <a
@@ -101,8 +101,11 @@ export const ContactSection = () => {
                   >
                     <Linkedin />
                   </a>
-                  <a href="#" target="_blank">
-                    <Twitter />
+                  <a
+                    href="https://www.facebook.com/flambeau.Aristide"
+                    target="_blank"
+                  >
+                    <Facebook />
                   </a>
                   <a
                     href="https://www.instagram.com/flambeaua123/"
