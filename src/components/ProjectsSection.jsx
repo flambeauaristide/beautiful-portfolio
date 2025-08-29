@@ -19,6 +19,15 @@ const projects = [
     demoUrl: "https://beautiful-portfolio-eta.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/beautiful-portfolio",
   },
+  {
+    id: 3,
+    title: "Ecommerce",
+    description: "An ecommerce website built with Next,js and TailwindCSS.",
+    image: "/projects/project3.png",
+    tags: ["Next", "TailwindCSS"],
+    demoUrl: "https://ecommerce-delta-brown-63.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/ecommerce",
+  },
 ];
 
 export const ProjectsSection = () => {
