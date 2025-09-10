@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Beautiful Portfolio",
+    title: "Beautiful Portfolio App",
     description: "A portfolio website built with React and TailwindCSS.",
     image: "/projects/project2.png",
     tags: ["React", "TailwindCSS"],
@@ -21,12 +21,21 @@ const projects = [
   },
   {
     id: 3,
-    title: "Ecommerce",
-    description: "An ecommerce website built with Next,js and TailwindCSS.",
+    title: "Ecommerce App",
+    description: "An ecommerce website built with Next.js and TailwindCSS.",
     image: "/projects/project3.png",
     tags: ["Next", "TailwindCSS"],
     demoUrl: "https://ecommerce-delta-brown-63.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/ecommerce",
+  },
+  {
+    id: 4,
+    title: "Music App",
+    description: "A music website built with React and TailwindCSS.",
+    image: "/projects/project4.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "https://flambeau-music-app.netlify.app/",
+    githubUrl: "https://github.com/flambeauaristide/music-app",
   },
 ];
 
