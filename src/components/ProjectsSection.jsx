@@ -37,6 +37,15 @@ const projects = [
     demoUrl: "https://flambeau-music-app.netlify.app/",
     githubUrl: "https://github.com/flambeauaristide/music-app",
   },
+  {
+    id: 5,
+    title: "Landing-page App",
+    description: "A landing-page website built with React and TailwindCSS.",
+    image: "/projects/project5.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "https://virtualr-bay.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/virtualr",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -53,7 +62,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="container flex gap-8 max-sm:grid">
+        <div className="grid grid-cols-3 max-sm:grid-cols-1 gap-8 max-sm:grid">
           {projects.map((project, key) => (
             <div
               key={key}
