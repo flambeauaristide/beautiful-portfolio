@@ -35,7 +35,7 @@ export const ContactSection = () => {
       <div className="container max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In
-          <span className="text-primary"> Touch</span>
+          <span className="text-red-500"> Touch</span>
         </h2>
 
         <p className="text-muted-foreground mb-12 text-center max-w-2xl mx-auto">
@@ -50,7 +50,7 @@ export const ContactSection = () => {
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="w-6 h-6 text-primary" />
+                  <Mail className="w-6 h-6 text-red-500" />
                 </div>
                 <div>
                   <h4 className="font-medium"> Email</h4>
@@ -65,7 +65,7 @@ export const ContactSection = () => {
               <div className="space-y-6 justify-center">
                 <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full bg-primary/10">
-                    <Phone className="w-6 h-6 text-primary" />
+                    <Phone className="w-6 h-6 text-red-500" />
                   </div>
                   <div>
                     <h4 className="font-medium"> Phone</h4>
@@ -81,7 +81,7 @@ export const ContactSection = () => {
               <div className="space-y-6 justify-center">
                 <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full bg-primary/10">
-                    <MapPin className="w-6 h-6 text-primary" />
+                    <MapPin className="w-6 h-6 text-red-500" />
                   </div>
                   <div>
                     <h4 className="font-medium"> Location</h4>
@@ -179,7 +179,7 @@ export const ContactSection = () => {
                   type="submit"
                   disabled={isSubmitting}
                   className={cn(
-                    "cosmic-button w-full flex items-center justify-center gap-2"
+                    "cosmic-button w-full flex items-center justify-center gap-2 bg-red-500"
                   )}
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}

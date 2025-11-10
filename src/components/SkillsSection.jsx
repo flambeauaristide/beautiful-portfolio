@@ -38,7 +38,7 @@ export const SkillsSection = () => {
       <div className="container max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My
-          <span className="text-primary"> Skills</span>
+          <span className="text-red-500"> Skills</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -49,7 +49,7 @@ export const SkillsSection = () => {
               className={cn(
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
-                  ? "bg-primary text-primary-foreground"
+                  ? "bg-red-500 text-primary-foreground"
                   : "bg-secondary/70 text-foregroung hover:bg-secondary"
               )}
             >
@@ -69,7 +69,7 @@ export const SkillsSection = () => {
               </div>
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
-                  className="h-2 bg-primary rounded-full origin-left animate-[grow_1.5s_ease-out]"
+                  className="h-2 bg-red-500 rounded-full origin-left animate-[grow_1.5s_ease-out]"
                   style={{ width: skill.level + "%" }}
                 />
               </div>

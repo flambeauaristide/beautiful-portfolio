@@ -54,7 +54,7 @@ export const ProjectsSection = () => {
       <div className="container max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Featured
-          <span className="text-primary"> Projects</span>
+          <span className="text-red-500"> Projects</span>
         </h2>
 
         <p className="text-muted-foreground mb-12 text-center max-w-2xl mx-auto">
@@ -114,7 +114,7 @@ export const ProjectsSection = () => {
 
         <div className="text-center mt-12">
           <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            className="cosmic-button w-fit flex items-center mx-auto gap-2 bg-red-500"
             target="_blank"
             href="https://github.com/flambeauaristide"
           >

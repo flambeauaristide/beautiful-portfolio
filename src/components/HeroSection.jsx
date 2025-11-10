@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
+            <span className="text-red-500 opacity-0 animate-fade-in-delay-1">
               {" "}
               Flambeau
             </span>
@@ -26,8 +26,8 @@ export const HeroSection = () => {
             both beautiful and functional.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4 ">
+            <a href="#projects" className="cosmic-button bg-red-500">
               View My Work
             </a>
           </div>
@@ -36,7 +36,7 @@ export const HeroSection = () => {
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-sm text-muted-foreground mb-2">Scroll</span>
-        <ArrowDown className="h-5 w-5 text-primary" />
+        <ArrowDown className="h-5 w-5 text-red-500" />
       </div>
     </section>
   );

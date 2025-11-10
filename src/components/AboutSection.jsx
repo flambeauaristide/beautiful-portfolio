@@ -6,7 +6,7 @@ export const AboutSection = () => {
       <div className="container max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About
-          <span className="text-primary"> Me</span>
+          <span className="text-red-500"> Me</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -29,13 +29,13 @@ export const AboutSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
+              <a href="#contact" className="cosmic-button bg-red-500">
                 Get In Touch
               </a>
 
               <a
                 href=""
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                className="px-6 py-2 rounded-full border border-red-500 text-red-500 hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
               </a>
@@ -46,7 +46,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <Code className="h-6 w-6 text-red-500" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
@@ -60,7 +60,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <User className="h-6 w-6 text-red-500" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
@@ -74,7 +74,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <Briefcase className="h-6 w-6 text-red-500" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
