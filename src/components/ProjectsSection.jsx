@@ -46,6 +46,15 @@ const projects = [
     demoUrl: "https://virtualr-bay.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/virtualr",
   },
+  {
+    id: 6,
+    title: "Movie App",
+    description: "A movie website built with React and TailwindCSS.",
+    image: "/projects/project6.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "https://netflix-clone-1-as3c.onrender.com/",
+    githubUrl: "https://github.com/flambeauaristide/netflix-clone",
+  },
 ];
 
 export const ProjectsSection = () => {
