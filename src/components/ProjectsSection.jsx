@@ -55,6 +55,15 @@ const projects = [
     demoUrl: "https://netflix-clone-1-as3c.onrender.com/",
     githubUrl: "https://github.com/flambeauaristide/netflix-clone",
   },
+  {
+    id: 7,
+    title: "Restaurant App",
+    description: "A restaurant website built with React and bootstrap.",
+    image: "/projects/project7.png",
+    tags: ["React", "Bootstrap"],
+    demoUrl: "https://react-foodies-website-iota.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/React_Foodies_Website",
+  },
 ];
 
 export const ProjectsSection = () => {
