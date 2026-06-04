@@ -82,6 +82,16 @@ const projects = [
     demoUrl: "https://student-grade-calculator-rho.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/student-grade-calculator",
   },
+  {
+    id: 10,
+    title: "Slide down a navigation bar on scroll",
+    description: "A navigation bar built with html, css and js.",
+    image: "/projects/project10.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://slide-down-a-navigation-bar-on-scro.vercel.app/",
+    githubUrl:
+      "https://github.com/flambeauaristide/slide-down-a-navigation-bar-on-scroll",
+  },
 ];
 
 export const ProjectsSection = () => {
