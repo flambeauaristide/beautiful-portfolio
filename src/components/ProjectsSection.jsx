@@ -92,6 +92,15 @@ const projects = [
     githubUrl:
       "https://github.com/flambeauaristide/slide-down-a-navigation-bar-on-scroll",
   },
+  {
+    id: 11,
+    title: "BMI Calculator",
+    description: "A BMI calculator built with html, css and js.",
+    image: "/projects/project11.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://bmi-calculator-beta-lime.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/bmi-calculator",
+  },
 ];
 
 export const ProjectsSection = () => {
