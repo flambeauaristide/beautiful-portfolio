@@ -64,6 +64,15 @@ const projects = [
     demoUrl: "https://react-foodies-website-iota.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/React_Foodies_Website",
   },
+  {
+    id: 8,
+    title: "Slide Login Form",
+    description: "A login form built with html and css.",
+    image: "/projects/project8.png",
+    tags: ["HTML", "CSS"],
+    demoUrl: "https://slide-navbar.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/slide-navbar",
+  },
 ];
 
 export const ProjectsSection = () => {
