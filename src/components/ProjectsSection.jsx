@@ -73,6 +73,15 @@ const projects = [
     demoUrl: "https://slide-navbar.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/slide-navbar",
   },
+  {
+    id: 9,
+    title: "Student Grade Calculator",
+    description: "A calculator built with html, css and js.",
+    image: "/projects/project9.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://student-grade-calculator-rho.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/student-grade-calculator",
+  },
 ];
 
 export const ProjectsSection = () => {
