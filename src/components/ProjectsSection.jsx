@@ -101,6 +101,15 @@ const projects = [
     demoUrl: "https://bmi-calculator-beta-lime.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/bmi-calculator",
   },
+  {
+    id: 12,
+    title: "Toast Notification",
+    description: "A notification built with html, css and js.",
+    image: "/projects/project12.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://toast-notification-cyan.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/toast-notification",
+  },
 ];
 
 export const ProjectsSection = () => {
