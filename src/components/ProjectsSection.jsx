@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: 8,
-    title: "Slide Login Form",
+    title: "Slide Login Form App",
     description: "A login form built with html and css.",
     image: "/projects/project8.png",
     tags: ["HTML", "CSS"],
@@ -75,7 +75,7 @@ const projects = [
   },
   {
     id: 9,
-    title: "Student Grade Calculator",
+    title: "Student Grade Calculator App",
     description: "A calculator built with html, css and js.",
     image: "/projects/project9.png",
     tags: ["HTML", "CSS", "JS"],
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     id: 10,
-    title: "Slide down a navigation bar on scroll",
+    title: "Slide down a navigation bar on scroll App",
     description: "A navigation bar built with html, css and js.",
     image: "/projects/project10.png",
     tags: ["HTML", "CSS", "JS"],
@@ -94,7 +94,7 @@ const projects = [
   },
   {
     id: 11,
-    title: "BMI Calculator",
+    title: "BMI Calculator App",
     description: "A BMI calculator built with html, css and js.",
     image: "/projects/project11.png",
     tags: ["HTML", "CSS", "JS"],
@@ -103,12 +103,21 @@ const projects = [
   },
   {
     id: 12,
-    title: "Toast Notification",
+    title: "Toast Notification App",
     description: "A notification built with html, css and js.",
     image: "/projects/project12.png",
     tags: ["HTML", "CSS", "JS"],
     demoUrl: "https://toast-notification-cyan.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/toast-notification",
+  },
+  {
+    id: 13,
+    title: "Internet Speed Test App",
+    description: "An internet speed test app built with html, css and js.",
+    image: "/projects/project13.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://internet-speed-test-app-five.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/internet-speed-test-app",
   },
 ];
 
