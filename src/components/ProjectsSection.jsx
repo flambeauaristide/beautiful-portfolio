@@ -119,6 +119,15 @@ const projects = [
     demoUrl: "https://internet-speed-test-app-five.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/internet-speed-test-app",
   },
+  {
+    id: 14,
+    title: "Tip Calculator App",
+    description: "A tip calculator app built with html, css and js.",
+    image: "/projects/project14.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://tip-calculator-blush-ten.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/tip-calculator",
+  },
 ];
 
 export const ProjectsSection = () => {
