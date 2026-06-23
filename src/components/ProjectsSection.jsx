@@ -128,6 +128,15 @@ const projects = [
     demoUrl: "https://tip-calculator-blush-ten.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/tip-calculator",
   },
+  {
+    id: 15,
+    title: "Pharmacy App",
+    description: "A pharmacy app built with html and css.",
+    image: "/projects/project15.png",
+    tags: ["HTML", "CSS"],
+    demoUrl: "https://pharmacy-five-chi.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/pharmacy",
+  },
 ];
 
 export const ProjectsSection = () => {
