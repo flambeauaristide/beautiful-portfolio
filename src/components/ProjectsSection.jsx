@@ -137,6 +137,15 @@ const projects = [
     demoUrl: "https://pharmacy-five-chi.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/pharmacy",
   },
+  {
+    id: 16,
+    title: "Analog Clock App",
+    description: "An analog clock app built with html, css and js.",
+    image: "/projects/project16.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://analog-clock-nu-lac.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/analog-clock",
+  },
 ];
 
 export const ProjectsSection = () => {
