@@ -146,6 +146,15 @@ const projects = [
     demoUrl: "https://analog-clock-nu-lac.vercel.app/",
     githubUrl: "https://github.com/flambeauaristide/analog-clock",
   },
+  {
+    id: 17,
+    title: "Text to Speech Converter App",
+    description: "A text to speech converter app built with html, css and js.",
+    image: "/projects/project17.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://text-to-speech-converter-blond.vercel.app/",
+    githubUrl: "https://github.com/flambeauaristide/text-to-speech-converter",
+  },
 ];
 
 export const ProjectsSection = () => {
